@@ -21,34 +21,57 @@
       }
       .btn_group button {
         background-color: #184e24; /* Green background */
-        border: 1px solid #184e24; /* Green border */
+        border: 3px solid #184e24; /* Green border */
         color: white; /* White text */
         padding: 10px 40px; /* Some padding */
         cursor: pointer; /* Pointer/hand icon */
         float: right; /* Float the buttons side by side */
         font-size: large;
+        border-radius: 10px;
+      }
+      .btn_group button:hover {
+        background-color: #377a45;
+      }
+      .btn_group button:after {
+        background-color: #103b1a;
       }
       .btn_group {
         background-color: #184e24;
         border-radius: 10px;
-        overflow: hidden;
+        overflow: auto;
         float: right;
       }
       .promo_text {
         color: rgb(255, 255, 255);
-        margin-top: 100px;
+        margin-top: 5%;
+        margin-left: 3%;
+        font-size: 30px;
       }
       .big_logo {
         float: left;
-        width: 22%;
-        margin-right: 35px;
-        margin-left: 35px;
+        width: 21%;
+        margin-right: 30px;
+        margin-left: 30px;
       }
-      #clear {
+      .clear {
         clear: both;
       }
       .logo_big {
         width: 100%;
+      }
+      .navbar {
+      }
+      .bottom_bar {
+        background: #1d3461;
+        overflow: auto;
+        margin-top: 3%;
+      }
+      .copyright {
+        float: left;
+        color: white;
+      }
+      .bottom_btn_group {
+        float: right;
       }
     </style>
   </head>
@@ -81,6 +104,19 @@
         Laden in Heidkamp oder schauen <br />
         Sie sich im Online Shop um.
       </p>
+    </div>
+
+    <div class="bottom_bar">
+      <p class="copyright">©Gabriela Böhm 2020</p>
+      <div class="bottom_btn_group">
+        <button>Shop</button>
+        <button>Sättel</button>
+        <button>Öffnungszeiten</button>
+        <button>Anfahrt</button>
+        <button>Kontakt</button>
+        <button>Über Uns</button>
+        <button>Impressum</button>
+      </div>
     </div>
   </body>
 </html>
