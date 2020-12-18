@@ -1,0 +1,62 @@
+body {
+  background-image: url(background_horse.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn_group button {
+  background-color: #184e24; /* Green background */
+  border: 0.3em solid #184e24; /* Green border */
+  color: white; /* White text */
+  padding: 0.5em 2em; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: right; /* Float the buttons side by side */
+  font-size: large;
+  border-radius: 10px;
+}
+.btn_group button:hover {
+  background-color: #377a45;
+}
+.btn_group button:after {
+  background-color: #103b1a;
+}
+.btn_group {
+  background-color: #184e24;
+  border-radius: 10px;
+  overflow: auto;
+  float: right;
+}
+.promo_text {
+  color: rgb(255, 255, 255);
+  margin-top: 5%;
+  margin-left: 3%;
+  font-size: 30px;
+}
+/*.big_logo {
+  float: left;
+  width: 21%;
+  margin-right: 30px;
+  margin-left: 30px;
+}*/
+.clear {
+  clear: both;
+}
+.logo_big {
+  width: 17em;
+  float: left;
+}
+.navbar {
+}
+.bottom_bar {
+  position: fixed;
+  background: #1d3461;
+  /* overflow: auto;*/
+  /*margin-top: 3%;*/
+  top: 90%;
+}
+.copyright {
+  float: left;
+  color: white;
+}
+.bottom_btn_group {
+  float: right;
+}
