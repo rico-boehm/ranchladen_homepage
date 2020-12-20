@@ -29,7 +29,7 @@ body {
   color: rgb(255, 255, 255);
   margin-top: 5%;
   margin-left: 3%;
-  font-size: 30px;
+  font-size: 2em;
 }
 /*.big_logo {
   float: left;
@@ -51,12 +51,16 @@ body {
   background: #1d3461;
   /* overflow: auto;*/
   /*margin-top: 3%;*/
-  top: 90%;
+  top: 95%;
+  height: 5%;
+  width: 100%;
+  padding: 1em, 1em;
 }
 .copyright {
   float: left;
   color: white;
 }
-.bottom_btn_group {
+.impressum {
   float: right;
+  margin-right: 1em;
 }
