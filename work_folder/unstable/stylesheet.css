@@ -1,0 +1,81 @@
+/* Layout */
+
+body {
+}
+
+h2 {
+}
+
+P {
+}
+
+.container {
+  padding: 1em;
+  background-color: #b1e1e7;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 2vw;
+  max-width: 7936px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner {
+  border-radius: 1vw;
+}
+
+.columns {
+  display: flex;
+  align-items: center;
+  padding: 0.2em;
+}
+
+.logo_big {
+  width: 30%;
+  height: auto;
+}
+
+.btn_group {
+  display: flex;
+  align-items: center;
+  background-color: #226d32;
+  width: 69%;
+  border-radius: 52vw;
+  margin: 0 auto;
+}
+
+.btn_group button {
+  background-color: #226d32;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  width: 14%;
+  height: auto;
+  border-radius: 52vw;
+  padding: 0.3em 0.1em;
+  border: #226d32;
+  cursor: pointer;
+}
+
+.btn_group button:hover {
+  background-color: #184e24;
+}
+
+.btn_group button.oeffnung {
+  width: 20%;
+}
+
+.bottom_bar {
+  position: fixed;
+  bottom: 0px;
+  font-size: 1vw;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 79.35%;
+  right: 8.3%;
+  padding: 0.001em 2em;
+  background-color: #184e24;
+}
