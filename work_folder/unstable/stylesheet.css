@@ -77,7 +77,7 @@ img {
 }
 
 /* Typography */
-h2 {
+h1 {
   color: black;
   font-size: 2.5vw;
   font-weight: bold;
@@ -85,9 +85,17 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-h2 span {
+h1 span {
   color: #397445;
   font-style: italic;
+}
+
+h2 {
+  color: black;
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 #first_title {
@@ -197,6 +205,14 @@ button.impressum_button {
 
 button.impressum_button:hover {
   background-color: #226d32;
+}
+
+#impressum_content {
+  font-size: 1.5vw;
+}
+
+#impressum_content h2 {
+  font-size: 2vw;
 }
 
 .col {
