@@ -98,6 +98,12 @@ h2 {
   margin-bottom: 0.5em;
 }
 
+h2 span {
+  color: #397445;
+  font-style: italic;
+  font-weight: bold;
+}
+
 #first_title {
   margin-top: 0;
 }
@@ -144,11 +150,34 @@ button {
 }
 
 .columns.columns_start {
-  align-items: flex-start;
+  align-items: center;
+}
+
+.columns.columns_anfahrt {
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+}
+
+.columns.columns_oeffnungszeiten {
+  flex-direction: column;
+  text-align: center;
+  width: 75%;
 }
 
 #shop_content {
+  display: flex;
   flex-direction: column;
+  width: 75%;
+  justify-content: center;
+}
+
+#column_kontakt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
 }
 
 .logo_big {
@@ -233,6 +262,10 @@ button.impressum_button:hover {
   width: 50%;
 }
 
+.col-75 {
+  width: 75%;
+}
+
 .col.col-bg.col-1 {
   margin-left: auto;
   font-size: 1.2vw;
@@ -244,4 +277,5 @@ button.impressum_button:hover {
 
 .col.col-3 {
   margin-left: 5em;
+  text-align: center;
 }
